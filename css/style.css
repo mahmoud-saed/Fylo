@@ -1,0 +1,375 @@
+Body {
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header */
+
+.header {
+    margin-top: 40px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 150px;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header .nav {
+    display: flex;
+    list-style: none;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.header ul li a:hover {
+    color: purple;
+
+}
+
+.header ul li {
+    margin-left: 70px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+.header ul li:hover {
+    transform: translateY(10px);
+    border-bottom: 2px solid purple;
+}
+
+/* landing */
+
+.landing {
+    margin-top: 50px;
+}
+
+.landing .container {
+    display: flex;
+    align-items: center;
+}
+
+.landing .text {
+    flex: 1;
+}
+
+.landing .text h2 {
+    color: hsl(243, 87%, 12%);
+    line-height: 1.6;
+    margin-bottom: 14px;
+    font-size: 34px;
+}
+
+.landing .text p {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.landing .text form {}
+
+.landing .text form input[type="email"] {
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.landing .text form input[type="email"]:focus {
+    outline: none;
+}
+
+.landing .text form input[type="email"]::placeholder {
+    padding-left: 20px;
+    color: #ccc;
+}
+
+.landing .text form input[type="submit"] {
+    height: 40px;
+    width: 200px;
+    background-color: #2f65f9;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.landing .text form input[type="submit"]:hover {
+    background-color: #6b9bff;
+}
+
+.landing .container img {
+    width: 570px;
+}
+
+/* landing-2 */
+
+.landing-2 {
+    margin-top: 150px;
+    position: relative;
+    background-color: #f8f8fe;
+    padding-bottom: 90px;
+}
+
+.landing-2>img {
+    width: 100%;
+    position: absolute;
+    top: -105px;
+}
+
+.landing-2 .container {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+
+}
+
+.landing-2 .container .text h2 {
+    color: hsl(243, 87%, 12%);
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.landing-2 .container .text {
+    position: relative;
+    flex: 1;
+}
+
+.landing-2 .container .text p {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.landing-2 .container .text a {
+    color: #399884;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #399884;
+    text-decoration: none;
+}
+
+.landing-2 .container .text .icon {
+    width: 20px;
+    position: absolute;
+    top: 200px;
+    left: 158px;
+}
+
+.landing-2 .container .box {
+    background-color: white;
+    width: 300px;
+    height: 190px;
+    border-radius: 6px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 40px;
+    position: relative;
+    padding-top: 30px;
+}
+
+.landing-2 .container .box p {
+    font-size: 11px;
+    line-height: 2;
+    font-weight: bold;
+}
+
+.landing-2 .container .box .prof img {
+    width: 30px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 25px;
+}
+
+.landing-2 .container .box .prof h6 {
+    position: absolute;
+    bottom: 36px;
+    left: 70px;
+}
+
+.landing-2 .container .box .prof p {
+    position: absolute;
+    bottom: 20px;
+    color: #777;
+    left: 70px;
+}
+
+.landing-2 .container .img {
+    padding-top: 40px;
+}
+
+.landing-2 .container .img img {
+    width: 550px;
+
+}
+
+/* get-early */
+
+.get-early {
+    background-color: #575989;
+    width: 100%;
+    height: 250px;
+}
+
+.get-early .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-top: 70px; */
+}
+
+.get-early .text {
+    padding-top: 80px;
+}
+
+.get-early .text h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.get-early .text p {
+    color: rgb(226, 222, 222);
+    font-size: 12px;
+}
+
+.get-early .container form {
+    margin-right: 60px;
+    padding-top: 80px;
+
+}
+
+.get-early .container form input[type="email"] {
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+    border: none;
+}
+
+.get-early .container form input[type="email"]:focus {
+    outline: none;
+}
+
+.get-early .container form input[type="email"]::placeholder {
+    padding-left: 20px;
+    color: #ccc;
+}
+
+.get-early .container form input[type="button"] {
+    height: 40px;
+    width: 180px;
+    background-color: #2f65f9;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+    color: white;
+}
+
+.get-early .container form input[type="button"]:hover {
+    background-color: #6b9bff;
+}
+
+/* footer */
+
+.footer {
+    background-color: #07043b;
+    width: 100%;
+    height: 300px;
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+.footer .data>img {
+    color: white;
+}
+
+.footer .data .line {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.footer .data .line img {
+    padding-right: 15px;
+}
+
+.footer .data .line p {
+    color: #d7d5fa;
+}
+
+.footer .box .links {
+    list-style: none;
+    margin-top: 65px;
+}
+
+.footer .box .links li {
+    padding-bottom: 15px;
+}
+
+.footer .box .links li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer .box .links li a:hover {
+    color: #575989;
+    cursor: pointer;
+}
+
+.footer .box .link {
+    list-style: none;
+    margin-top: 65px;
+}
+
+.footer .box .link li {
+    padding-bottom: 15px;
+}
+
+.footer .box .link li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer .box .link li a:hover {
+    color: #575989;
+    cursor: pointer;
+}
